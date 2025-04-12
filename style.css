@@ -1,59 +1,80 @@
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background: #f4f6f8;
     margin: 0;
-    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2f4f7;
+    color: #333;
   }
   
-  .container {
-    max-width: 400px;
-    margin: 80px auto;
-    background: white;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  .app {
+    max-width: 360px;
+    margin: 60px auto;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+  
+  header {
+    background-color: #0f62fe;
+    padding: 20px;
+    color: #fff;
     text-align: center;
   }
   
-  h1 {
-    color: #2d89ef;
+  .sub {
+    font-size: 14px;
+    margin-top: 4px;
+    opacity: 0.9;
   }
   
-  .tagline {
-    color: #555;
-    margin-bottom: 20px;
-  }
-  
-  .input-group {
+  .card {
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
+  }
+  
+  .card h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
   }
   
   input {
-    padding: 10px;
-    font-size: 16px;
+    padding: 12px;
+    border-radius: 10px;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    font-size: 16px;
   }
   
   button {
-    padding: 10px;
-    background-color: #2d89ef;
+    background-color: #0f62fe;
     color: white;
     border: none;
-    border-radius: 8px;
+    padding: 12px;
     font-size: 16px;
+    border-radius: 10px;
     cursor: pointer;
+    transition: background 0.3s ease;
   }
   
   button:hover {
-    background-color: #1b66d1;
+    background-color: #0b4bcc;
   }
   
-  #result {
+  .result-box {
     margin-top: 20px;
-    font-size: 18px;
+    padding: 12px;
+    background-color: #eaf5ff;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+    color: #888;
+    border-top: 1px solid #eee;
   }
   
   .hidden {
